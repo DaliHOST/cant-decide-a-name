@@ -1,3 +1,9 @@
+/* #all{
+  background-image: url("/modernback.jpg");
+    background-size: cover;
+    background-repeat: initial;
+} */
+
 .App{
   display: flex;
   flex-direction: column;
