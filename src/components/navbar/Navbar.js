@@ -13,8 +13,8 @@ export default function Navbar() {
     
     return (
         <>
-        <div id="mySidenav" class="sidenav">
-            <Link class="closebtn" onClick={closeNav}>&times;</Link>
+        <div id="mySidenav" className="sidenav">
+            <Link to='#' className="closebtn" onClick={closeNav}>&times;</Link>
             <Link to='/'>Home</Link>
             <Link to='#'>Services</Link>
             <Link to='/about'>About</Link>
